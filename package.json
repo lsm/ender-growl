@@ -1,0 +1,21 @@
+{
+  "name": "ender-growl",
+  "description": "Growl-like notification widget ported from jquery-gritter for ender",
+  "version": "0.5.0",
+  "authors": "Senmiao Liu <zir.echo@gmail.com>",
+  "keywords": ["growl", "gritter", "jeesh", "ender"],
+  "main": "./growl.js",
+  "homepage": "https://github.com/zir/ender-growl",
+  "ender": "./src/ender.js",
+  "files": ["./css", "./images", "./src", "./growl.js"],
+  "dependencies": {
+    "domready": "~0.2.5",
+    "qwery": "~2.1.2",
+    "bonzo": "~0.6.4",
+    "bean": "~0.2.6",
+    "morpheus": "~0.4.3"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+}
